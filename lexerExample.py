@@ -1,39 +1,25 @@
 import ply.lex as lex
 
+# Mapinator Project
+# Members:
+# Jamel Peralta
+# Gustavo Reyes
+# Alejandro Matos
+# Antonio
+
 tokens = (
     'RESERVED',
     'NAME',
     'NUMBER',
     'DECIMAL',
-    'PLUS',
-    'MINUS',
-    'TIME',
-    'DIVIDE',
-    'EQUALS',
-    'LBRACKET',
-    'RBRACKET',
-    'LKEYBRACKET',
-    'RKEYBRACKET',
-    'LSBRACKET',
-    'RSBRACKET'
 )
 
 t_ignore = ' \t'
-t_PLUS = r'\+'
-t_MINUS = r'-'
-t_TIME = r'\*'
-t_DIVIDE = r'/'
-t_EQUALS = r'\='
+
 t_NAME = r'[a-zA-Z_][a-zA-Z0-9_]*'
-t_LBRACKET = r'\('
-t_RBRACKET = r'\)'
-t_LKEYBRACKET = r'\{'
-t_RKEYBRACKET = r'\}'
-t_LSBRACKET = r'\['
-t_RSBRACKET = r'\]'
 t_DECIMAL = r'[.][0-9]*'
 
-t_RESERVED = r'GenerateMap | SetMapSize | GenerateBiome | SetBiome | ModBiome | Seed | Color | ElevationFreq'
+t_RESERVED = r'GenerateCode | GenerateMap | SetMapSize | SetSeed | SetLacunarity | SetDetails | SetHeightMult | SetNoiseScale | SetNoiseDensity | SetPersistance'
 
 def t_newline(t):
     r'\n+'
@@ -51,6 +37,7 @@ def t_error(t) :
 lexer = lex.lex()
 
 ###########################################################
+# TESTER
 
 content = ""
 

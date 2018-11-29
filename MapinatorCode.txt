@@ -1,10 +1,9 @@
-GenerateMap map1
-SetMapSize map1 50 50
-SetBiome map1 biome2
-GenerateBiome biome1
-ModBiome biome1 Seed 0
-ModBiome biome1 Colors blue 50
-ModBiome biome1 Colors red 75
-ModBiome biome1 Colors green 100
-ModBiome biome1 ElevationFreq 50
-SetBiome map1 biome1
+GenerateMap mymap
+SetSeed mymap 1
+SetLacunarity mymap 3
+SetDetails mymap 0
+SetHeightMult mymap 10
+SetNoiseScale mymap 10
+SetNoiseDensity mymap 5
+SetPersistance mymap 0
+GenerateCode mymap
