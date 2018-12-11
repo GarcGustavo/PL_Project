@@ -5,11 +5,11 @@ Once the language is used to create a desired map, it generates C# scripts that 
 The main goal of this language is to make map creation and game development more accessible to creators, allowing people to code complex map algorithms with a few simple commands. 
 The functions and properties that the language can create and edit means game-makers are free to focus on more important tasks, letting the language do most of the complex scripting work.
 
-(./https://github.com/GarcGustavo/PL_Project)
+./https://github.com/GarcGustavo/PL_Project
 
 Language Tutorial Video: 
 
-(./https://www.youtube.com/watch?v=0ygKaT88NQs)
+./https://www.youtube.com/watch?v=0ygKaT88NQs
 
 Instructions:
 
@@ -30,12 +30,21 @@ Language Reference Manual
 
 Commands: 
 1- GenerateMap map_name: Creates a map with the specified name.
+
 2- SetMapSize map_name number number: Creates a map with the specified size. 
+
 3- SetSeed map_name number: Creates a random id used to generate the noise map. 
+
 4- SetLacunarity map_name number: It is a value to controls distance between peaks. 
+
 5- SetDetails map_name number: It is a value to controls the level of details to show the map. 
+
 6- SetHeightMult map_name number: It is a value to controls the general height of the map.
+
 7- SetNoiseScale map_name number: it is the scale to represent the map in a flat plane.
-8- SetNoiseDensity map_name number: It is a value to control how elevations are distributed or clumped together. 
+
+8- SetNoiseDensity map_name number: It is a value to control how elevations are distributed or clumped together.
+
 9- SetPersistence map_name number: It is a value to control how higher values affect the map.
+
 10- GenerateCode map_name: Command need to finalize the code.
