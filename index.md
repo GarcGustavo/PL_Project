@@ -9,7 +9,7 @@ The functions and properties that the language can create and edit means game-ma
 
 Language Tutorial Video: 
 
-https://www.youtube.com/watch?v=0ygKaT88NQs
+[Tutorial Video](https://www.youtube.com/watch?v=0ygKaT88NQs)
 
 Instructions:
 
