@@ -1,20 +1,15 @@
----
-layout: default
----
-
 MAPINATOR
-
 
 Mapinator is a simple and easy to use map creation language. Utilizing the Unity engine and python, it produces a simple procedurally generated map with customizable parameters. 
 Once the language is used to create a desired map, it generates C# scripts that can be run and rendered using the Unity game engine. 
 The main goal of this language is to make map creation and game development more accessible to creators, allowing people to code complex map algorithms with a few simple commands. 
 The functions and properties that the language can create and edit means game-makers are free to focus on more important tasks, letting the language do most of the complex scripting work.
 
-[./https://github.com/GarcGustavo/PL_Project]
+(./https://github.com/GarcGustavo/PL_Project)
 
 Language Tutorial Video: 
 
-https://www.youtube.com/watch?v=0ygKaT88NQs
+(./https://www.youtube.com/watch?v=0ygKaT88NQs)
 
 Instructions:
 
