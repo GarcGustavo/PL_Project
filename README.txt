@@ -3,7 +3,7 @@ Once the language is used to create a desired map, it generates C# scripts that 
 The main goal of this language is to make map creation and game development more accessible to creators, allowing people to code complex map algorithms with a few simple commands. 
 The functions and properties that the language can create and edit means game-makers are free to focus on more important tasks, letting the language do most of the complex scripting work.
 
-Language Tutorial Video:
+Language Tutorial Video: 
 
 https://www.youtube.com/watch?v=0ygKaT88NQs
 
@@ -11,16 +11,16 @@ Instructions:
 
 Setting up Mapinator: 
 Install Python 3.
-Install JetBrainís Pycharm. 
+Install JetBrain‚Äôs Pycharm. 
 Install Unity. 
 Download PL_Project.zip from the GitHub page.
 Extract all the files.
 
 Running Mapinator: 
-Open the folder PL_Project in JetBrainís Pycharm IDE. 
-Search for the text file called ìMapinatorCode.txtî and write your code there. 
+Open the folder PL_Project in JetBrain‚Äôs Pycharm IDE. 
+Search for the text file called ‚ÄúMapinatorCode.txt‚Äù and write your code there. 
 When the code is ready, run the MainClass.py.
-Search for the ìoutputî folder and import all the scripts to Unity. 
+Search for the ‚Äúoutput‚Äù folder and import all the scripts to Unity. 
 
 Language Reference Manual 
 
