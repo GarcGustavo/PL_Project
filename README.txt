@@ -3,7 +3,11 @@ Once the language is used to create a desired map, it generates C# scripts that 
 The main goal of this language is to make map creation and game development more accessible to creators, allowing people to code complex map algorithms with a few simple commands. 
 The functions and properties that the language can create and edit means game-makers are free to focus on more important tasks, letting the language do most of the complex scripting work.
 
-Language Tutorial
+Language Tutorial Video:
+
+https://www.youtube.com/watch?v=0ygKaT88NQs
+
+Instructions:
 
 Setting up Mapinator: 
 Install Python 3.
